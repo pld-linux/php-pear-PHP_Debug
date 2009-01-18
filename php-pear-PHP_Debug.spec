@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - provides assistance in debugging PHP code
 Summary(pl.UTF-8):	%{_pearname} - pomoc przy odpluskiwaniu kodu PHP
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	4a8cf8a088e0c862e3e8af2f535c1f02
+# Source0-md5:	2176e37a1b7d5b2c459593863cadcaeb
 URL:		http://pear.php.net/package/PHP_Debug/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
