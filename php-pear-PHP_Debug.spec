@@ -1,13 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		PHP
-%define		_subclass	Debug
 %define		_status		stable
 %define		_pearname	PHP_Debug
 Summary:	%{_pearname} - provides assistance in debugging PHP code
 Summary(pl.UTF-8):	%{_pearname} - pomoc przy odpluskiwaniu kodu PHP
 Name:		php-pear-%{_pearname}
 Version:	1.0.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -16,6 +14,7 @@ URL:		http://pear.php.net/package/PHP_Debug/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
+Suggests:	php-pear-Text_Highlighter
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
